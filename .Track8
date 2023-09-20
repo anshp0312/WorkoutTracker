@@ -1,9 +1,0 @@
-[track8]
-disable-noqa = True
-ignore = W503
-filename =
-    ./workout_tracker.py
-max-complexity = 10
-max-line-length = 79
-exclude =
-  tests
