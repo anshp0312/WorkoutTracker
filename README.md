@@ -14,11 +14,6 @@ the type of training and the raw data, it will provide the following information
 
 - ## Installation (windows)
 
-Clone repository
-
-```sh
-git clone git@github.com:KuzenkovAG/module-fitness-tracker.git
-```
 Install environment
 ```sh
 cd module-Workout-tracker/
@@ -38,3 +33,19 @@ Run script
 ```sh
 python Workout_tracker.py
 ```
+## Usage
+#### Input data
+```sh
+'SWM', [720, 1, 80, 25, 40]
+```
+| # | SWM | Description | units |
+| - | --- | ----------- | ----- |
+| 1 | 720 | numbers of strokes in swimming | ea |
+| 2 | 1 | duration | h |
+| 3 | 80 | weight | kg |
+| 4 | 25 | pool leight | m |
+| 5 | 40 | counts pool during training | ea |
+
+#### Output data
+```sh
+Training type: Swimming; Duration: 1.000 h.; Distance: 0.994 m; Avg. speed: 1.000 mph; Spent cal: 336.000.
